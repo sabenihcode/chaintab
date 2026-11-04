@@ -1,0 +1,13 @@
+/* Ganti hijau default Chainlit jadi hijau brand kamu */
+:root { --primary: #0d6e3f !important; }
+
+/* Sembunyikan watermark Built with Chainlit */
+a[href*="chainlit.io"] { display: none !important; }
+
+/* Teks Arab di chat jadi kanan-ke-kiri dan bagus */
+.step-output, .message-content p:lang(ar) {
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+  font-size: 1.05em;
+}
