@@ -1,0 +1,14 @@
+[UI]
+# <<< GANTI INI DENGAN BRAND KAMU, misal "TuratsKu" / "Pondok AI" / "ShamelaKu"
+name = "ChainTab"
+description = "Chatbot Kitab Shamela.ws"
+default_theme = "dark"
+show_readme_as_default = true
+cot = "tool_call"
+
+[features]
+unsafe_allow_html = true
+multi_modal = false
+
+[code]
+allow_html = true
